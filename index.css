@@ -76,7 +76,11 @@ article p{
     opacity: .75;
 }
 
-article p a{
+.locatie{
+    color: #39B54A;
+}
+
+.knop{
     background-color: #39B54A;
     border: none;
     border-radius: 15px;
