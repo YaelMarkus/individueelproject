@@ -4,19 +4,22 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     display: flex;
     flex-direction: column;
-    
+    background-color: #fdfdfd;  
+
 }
 
-body h1, h2 {
+body h1,
+h2 {
     font-family: comfortaa;
     color: #39B54A;
+
 }
 
 @font-face {
-    font-family: comfortaa ;
+    font-family: comfortaa;
     src: url(fonts/Comfortaa_Thin.ttf);
 }
 
@@ -26,8 +29,69 @@ body h1, h2 {
 }
 
 
-body p{
+body p {
     font-family: montserrat;
     color: black;
     opacity: .75;
+    margin-top: 4%;
+}
+
+header {
+    font-family: montserrat;
+    font-size: 85%;
+    text-align: center;
+    background-color: white;
+    position: fixed;
+    padding: 3%;
+    width: 100%;
+    z-index: 2;
+}
+
+nav {
+    background-color: white;
+
+}
+
+ul {
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    list-style-type: none;
+
+
+}
+
+a {
+    color: #39B54A;
+    text-decoration: none;
+}
+
+main {
+    margin-top: 30%;
+}
+
+
+article {
+    text-align: center;
+    background-color: white;
+    border: solid 2px #39B54A;
+    border-radius: 10px;
+    width: 70%;
+    margin: 10% 15%;
+    padding: 15px;
+    box-shadow: 10px 10px 5px gray;
+
+}
+
+article p{
+    margin-top: 10%;
+}
+
+article a{
+    background-color: #39B54A;
+    border: none;
+    border-radius: 15px;
+    padding: 4%;
+    color: white;
 }
