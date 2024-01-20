@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     display: flex;
     flex-direction: column;
     background-color: #39B54A;
@@ -67,20 +67,20 @@ article {
     box-shadow: 10px 10px 5px green;
 }
 
-article p{
+article p {
     margin-bottom: 12%;
 }
 
-.tekst{
+.tekst {
     margin-top: 7%;
     opacity: .75;
 }
 
-.locatie{
+.locatie {
     color: #39B54A;
 }
 
-.knop{
+.knop {
     background-color: #39B54A;
     border: none;
     border-radius: 15px;
@@ -97,7 +97,3 @@ article p{
     font-family: montserrat;
     src: url(fonts/Montserrat-Regular.otf);
 }
-
-
-
-
