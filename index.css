@@ -7,8 +7,8 @@
 body {
     display: flex;
     flex-direction: column;
-    background-color: #e5e5f7;
-    background: repeating-linear-gradient( -45deg, #7cdd89, #7cdd89 100px, #f4f4f7 100px, #f4f4f7 200px ); 
+    background-color: #f4f4f7;
+    
     
 
 }
