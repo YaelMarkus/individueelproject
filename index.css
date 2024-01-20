@@ -7,7 +7,9 @@
 body {
     display: flex;
     flex-direction: column;
-    background-color: #fdfdfd;  
+    background-color: #e5e5f7;
+    background: repeating-linear-gradient( -45deg, #7cdd89, #7cdd89 100px, #f4f4f7 100px, #f4f4f7 200px ); 
+    
 
 }
 
@@ -17,6 +19,7 @@ h2 {
     color: #39B54A;
 
 }
+
 
 @font-face {
     font-family: comfortaa;
@@ -32,7 +35,6 @@ h2 {
 body p {
     font-family: montserrat;
     color: black;
-    opacity: .75;
     margin-top: 4%;
 }
 
@@ -81,17 +83,30 @@ article {
     margin: 10% 15%;
     padding: 15px;
     box-shadow: 10px 10px 5px gray;
+    
+  
 
 }
 
 article p{
-    margin-top: 10%;
+    margin-bottom: 5%;
 }
 
-article a{
+.tekst{
+    margin-top: 7%;
+    margin-bottom: 13%;
+    opacity: .75;
+    
+   
+   
+}
+
+article p a{
     background-color: #39B54A;
     border: none;
     border-radius: 15px;
     padding: 4%;
     color: white;
+   
 }
+
