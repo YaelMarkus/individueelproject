@@ -7,7 +7,7 @@
 body {
     display: flex;
     flex-direction: column;
-    background-color: rgba(71, 190, 71, 0.884);
+    background-color: #47be47e1;
 }
 
 body h1,
@@ -25,7 +25,7 @@ h2 {
 
 body p {
     font-family: montserrat;
-    color: black;
+    color: #000000;
     margin-top: 4%;
 }
 
@@ -130,7 +130,7 @@ article p {
     border: none;
     border-radius: 15px;
     padding: 4%;
-    color: white;
+    color: #ffffff;
 }
 
 @font-face {
